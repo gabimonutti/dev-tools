@@ -1,0 +1,13 @@
+.tooldetail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+    .content-container {
+        width: 75%;
+    }
+}

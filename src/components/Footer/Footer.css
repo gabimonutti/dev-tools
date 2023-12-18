@@ -1,0 +1,12 @@
+.footer-container {
+    align-items: center;
+    height: 40px;
+    overflow: hidden;
+    width: 75%;
+    margin: 12px;
+    border-top: 1px solid #1b1a1a;
+}
+
+.footer-text {
+    font-size: 15px;
+}

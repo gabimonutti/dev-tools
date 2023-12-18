@@ -1,0 +1,50 @@
+.tool-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 300px;
+    min-width: 215px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    margin: 15px 5px;
+    overflow: hidden;
+    background-color: rgb(55 65 81);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.tool-container:hover {
+    background-color: rgb(70, 84, 106);
+}
+
+.tool-img {
+    float: left;
+    width:  50%;
+    height: 125px;
+    object-fit: scale-down;
+    margin: 5px auto;
+}
+
+
+.tool-title {
+    font-size: 20px;
+}
+
+
+.tool-description {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 600px) {
+    .tool-container {
+      width: calc(35% - 20px);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .tool-container {
+      width: calc(25% - 20px);
+    }
+}

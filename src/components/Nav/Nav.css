@@ -1,0 +1,32 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    overflow: hidden;
+    width: 75%;
+    margin: 12px;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-title {
+    font-size: 20px;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
