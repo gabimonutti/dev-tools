@@ -1,8 +1,6 @@
-# React + Vite
+# Dev Tools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this website you can find the best tech resources that will help you build your website using reusable components, the best images and videos, and other amazing tools.
+Also you can find roadmaps to get into some new technologies, webs to optimaze your multimedia, and so much more!
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visit the web in tools-4-dev.vercel.app and enjoy your development!
