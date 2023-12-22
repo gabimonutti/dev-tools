@@ -1,0 +1,49 @@
+.tool-visualizer-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 300px;
+    min-width: 215px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    margin: 15px 5px;
+    overflow: hidden;
+    background-color: rgb(55 65 81);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.tool-visualizer-container:hover {
+    background-color: rgb(70, 84, 106);
+}
+
+.tool-visualizer-pageimg {
+    border: 5px solid rgb(16, 33, 58);
+    max-width: 100%;
+}
+
+.tool-visualizer-logoimg {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border: 5px solid rgb(16, 33, 58);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(55 65 81);
+}
+
+.tool-visualizer-title {
+    bottom: 0;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.tool-visualizer-description {
+    font-size: 15px;
+}

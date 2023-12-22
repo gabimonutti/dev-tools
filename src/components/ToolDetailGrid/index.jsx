@@ -2,6 +2,7 @@ import { useState } from "react";
 import { toolDetail } from "../../data";
 import Tool from "../Tool";
 import ModalTool from "../ModalTool";
+import ToolVisualizer from "../ToolVisualizer";
 
 export default function ToolDetailGrid ({ tool }) {
     const detail = toolDetail[tool.toLowerCase().replace(/\s|%20/g, '_').replace(/&/g, 'and')];
@@ -21,13 +22,14 @@ export default function ToolDetailGrid ({ tool }) {
     return (
         <>
             <div className='toolgrid-container'>
-                { detail.map(({ img, title, description, link }) => (
-                    <Tool
+                { detail.map(({ img, img2, title, description, link }) => (
+                    <ToolVisualizer
                         className='toolgrid-item'
                         key={title}
-                        img={img}
+                        pageImg={img2}
+                        logoImg={img}
                         title={title}
-                        onClick={() => handleToolClick({ img, title, description, link })}
+                        onClick={() => handleToolClick({ img, img2, title, description, link })}
                     />
                 )) }
 
@@ -35,6 +37,7 @@ export default function ToolDetailGrid ({ tool }) {
             {modalOpen && (
                 <ModalTool
                     img={selectedTool.img}
+                    img2={selectedTool.img2}
                     title={selectedTool.title}
                     description={selectedTool.description}
                     link={selectedTool.link}
