@@ -41,7 +41,7 @@ export const toolFields = [
     },
     {
         img: '/multimedia.png',
-        title: 'IMPROVE YOUR MULTIMEDIA',
+        title: 'MULTIMEDIA OPTIMIZATION',
         description: '',
     },
     {
@@ -250,7 +250,7 @@ export const toolDetail = {
             link: 'https://animate.style/',
         },
     ],
-    improve_your_multimedia: [
+    multimedia_optimization: [
         {
             img: '/unscreen.png',
             img2: '/unscreen2.png',
