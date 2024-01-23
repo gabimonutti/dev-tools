@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { useEffect, useState } from 'react';
 import ButtonScrollTop from '../ButtonScrollTop';
 import Footer from '../Footer';
@@ -37,6 +38,7 @@ export default function Home () {
             </div>
             {showScrollButton && <ButtonScrollTop />}
             <Footer />
+            <Analytics />
         </div>
     );
 }
